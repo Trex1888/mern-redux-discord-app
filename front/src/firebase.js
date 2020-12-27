@@ -1,12 +1,12 @@
 import firebase from "firebase";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAEA5iljJiIXGIypNwwOsNZn42D2BoTJEQ",
-  authDomain: "discordmern-bece2.firebaseapp.com",
-  projectId: "discordmern-bece2",
-  storageBucket: "discordmern-bece2.appspot.com",
-  messagingSenderId: "110546363218",
-  appId: "1:110546363218:web:810624e066a5b703b8108b",
+  apiKey: "AIzaSyAjV3WXWA5c3V1j91KeH9jz6jk1g2oLFA8",
+  authDomain: "discord-chat-mern.firebaseapp.com",
+  projectId: "discord-chat-mern",
+  storageBucket: "discord-chat-mern.appspot.com",
+  messagingSenderId: "358203947642",
+  appId: "1:358203947642:web:95f95ce76594f37497d9c3",
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);

@@ -8,10 +8,11 @@ import config from "./config.js";
 const app = express();
 const port = process.env.PORT || 9000;
 
+const secretURL = config.SECRET_KEY;
 const pusher = new Pusher({
   appId: "1129177",
   key: "242b9e15b76118ebecd1",
-  secret: "c0ee9ab92a2cc3e086e3",
+  secret: secretURL,
   cluster: "us2",
   useTLS: true,
 });
